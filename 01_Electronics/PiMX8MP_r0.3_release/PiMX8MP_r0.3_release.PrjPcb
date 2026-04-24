@@ -604,7 +604,7 @@ UniqueId=6137C344-FC78-4D6A-BF14-C1AF78250D8B
 Description=Default_Config_0
 AllowFabrication=0
 ParameterCount=0
-VariationCount=78
+VariationCount=82
 Variation1=Designator=R1|UniqueId=\BHAXTEJP\PKPLZPVL|Kind=1|AlternatePart=
 Variation2=Designator=R2|UniqueId=\BHAXTEJP\TIMKUBCY|Kind=1|AlternatePart=
 Variation3=Designator=R19|UniqueId=\ZSSVONAQ\UUTPPQGK|Kind=1|AlternatePart=
@@ -683,6 +683,10 @@ Variation75=Designator=J6|UniqueId=\TEVWSGHT\FBQBIBXE|Kind=1|AlternatePart=
 Variation76=Designator=R185|UniqueId=\TEVWSGHT\AAJFBFDH|Kind=1|AlternatePart=
 Variation77=Designator=R74|UniqueId=\IQCAENXJ\RRINHISQ|Kind=1|AlternatePart=
 Variation78=Designator=R60|UniqueId=\OWIWAGXC\WLVDDKWL|Kind=1|AlternatePart=
+Variation79=Designator=C148|UniqueId=\OWIWAGXC\ADNBMKUP|Kind=1|AlternatePart=
+Variation80=Designator=R63|UniqueId=\OWIWAGXC\ECZRMQWU|Kind=1|AlternatePart=
+Variation81=Designator=R64|UniqueId=\OWIWAGXC\ABNXDIBF|Kind=1|AlternatePart=
+Variation82=Designator=U7|UniqueId=\OWIWAGXC\LLKNPVGJ|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -690,7 +694,7 @@ UniqueId=4c28a498-8d88-492d-bede-955f3150c86f
 Description=TPU
 AllowFabrication=0
 ParameterCount=0
-VariationCount=52
+VariationCount=56
 Variation1=Designator=C186|UniqueId=\TEVWSGHT\GLMYJUBW|Kind=1|AlternatePart=
 Variation2=Designator=J2|UniqueId=\RKRIUBZG\NHDPVETI|Kind=1|AlternatePart=
 Variation3=Designator=R1|UniqueId=\BHAXTEJP\PKPLZPVL|Kind=1|AlternatePart=
@@ -743,27 +747,31 @@ Variation49=Designator=R140|UniqueId=\JKSZCQWA\SUZXJTJG|Kind=1|AlternatePart=
 Variation50=Designator=R141|UniqueId=\JKSZCQWA\CWOXHIHJ|Kind=1|AlternatePart=
 Variation51=Designator=R159|UniqueId=\TBCPYDEP\EGFENHAA|Kind=1|AlternatePart=
 Variation52=Designator=R60|UniqueId=\OWIWAGXC\WLVDDKWL|Kind=1|AlternatePart=
+Variation53=Designator=C148|UniqueId=\OWIWAGXC\ADNBMKUP|Kind=1|AlternatePart=
+Variation54=Designator=R63|UniqueId=\OWIWAGXC\ECZRMQWU|Kind=1|AlternatePart=
+Variation55=Designator=R64|UniqueId=\OWIWAGXC\ABNXDIBF|Kind=1|AlternatePart=
+Variation56=Designator=U7|UniqueId=\OWIWAGXC\LLKNPVGJ|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Revision
-Value=0.3
+Name=Customer
+Value=OV Tech GmbH
 
 [Parameter2]
-Name=Reviewer
-Value=T. Ludemann
+Name=DevStatus
+Value=Release
 
 [Parameter3]
 Name=License
 Value=CERN-OHL-S-2.0
 
 [Parameter4]
-Name=DevStatus
-Value=Release
+Name=Reviewer
+Value=T. Ludemann
 
 [Parameter5]
-Name=Customer
-Value=OV Tech GmbH
+Name=Revision
+Value=0.3
 
 [Configuration1]
 Name=Sources
